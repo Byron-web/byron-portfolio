@@ -1,1 +1,17 @@
-<p>eight-ball works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h1> Welcome {{ userName }}!</h1>
+      <div class="div">
+        <label> Please ask a question</label>
+        <br>
+        <input [(ngModel)]="askQuestion" type="text">
+        <button (click)="onRandom()" ngModel>Ask</button>
+      </div>
+    </div>
+    <div class="col-6">
+      <img src="assets/img/8-ball.png" width="600">
+      <p>{{ eightBall }}</p>
+    </div>
+  </div>
+</div>
