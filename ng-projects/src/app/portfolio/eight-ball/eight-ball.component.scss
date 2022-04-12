@@ -1,0 +1,16 @@
+.eight-ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 501px;
+  background-image: url("../../../assets/img/8-ball.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.answer {
+  z-index: 1000;
+  color: #d0d0d0;
+}

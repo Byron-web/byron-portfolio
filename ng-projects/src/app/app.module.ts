@@ -8,6 +8,8 @@ import { HomeComponent } from './portfolio/home/home.component';
 import { EightBallComponent } from './portfolio/eight-ball/eight-ball.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import {FormsModule} from "@angular/forms";
+import { EmployeesComponent } from './employees/employees.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import {FormsModule} from "@angular/forms";
     CalculatorComponent,
     HomeComponent,
     EightBallComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    EmployeesComponent
   ],
   imports: [
     BrowserModule,

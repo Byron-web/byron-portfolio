@@ -9,7 +9,6 @@ export class EightBallComponent implements OnInit {
   userName: string = 'Byron';
   askQuestion: string = 'Will I buy a house this year?';
   eightBall: string = '';
-  magicBall = '../Shared/8-ball.png';
   randomArr: Array<string> = [
     'Eish I dont know!',
     'It is certain',
@@ -42,9 +41,5 @@ export class EightBallComponent implements OnInit {
     this.eightBall = this.randomArr[Math.floor(Math.random() * this.randomArr.length)];
     return this.eightBall;
   }
-
-//   onChoice(): void {
-//     this.randomArr = this.randomArr[Math.floor(Math.random()*this.randomArr.length)];
-// }
 
 }
