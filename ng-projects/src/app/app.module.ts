@@ -8,8 +8,10 @@ import { HomeComponent } from './portfolio/home/home.component';
 import { EightBallComponent } from './portfolio/eight-ball/eight-ball.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import {FormsModule} from "@angular/forms";
-import { EmployeesComponent } from './employees/employees.component';
+import { UserComponent } from './users/user/user.component';
 import {HttpClientModule} from "@angular/common/http";
+import {UserApiService} from "./services/users-api.service";
+import { UserListComponent } from './users/user-list/user-list.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +20,16 @@ import {HttpClientModule} from "@angular/common/http";
     HomeComponent,
     EightBallComponent,
     PortfolioComponent,
-    EmployeesComponent
+    UserComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [UserApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
