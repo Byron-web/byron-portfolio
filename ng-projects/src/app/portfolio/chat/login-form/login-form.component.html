@@ -1,0 +1,23 @@
+<div class="container sign-body mt-4">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h2>Login</h2>
+    </div>
+  </div>
+  <div class="row sign-item">
+    <label>Email address</label>
+    <input [(ngModel)]="email" type="email"/>
+  </div>
+  <div class="row sign-item">
+    <label>Password</label>
+    <input type="password" [(ngModel)]="password"/>
+  </div>
+  <div class="row sign-item">
+    <button class="btn btn-primary" (click)="login()">Login</button>
+  </div>
+  <div class="row">
+    <div class="fuck">
+      <a class="nav-link" routerLink="/signup">Sign Up</a>
+    </div>
+  </div>
+</div>

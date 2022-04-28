@@ -1,0 +1,17 @@
+.user-col {
+  background: #2088d3;
+  display: flex;
+}
+
+.main-chat {
+  background: #f1ecec;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chat-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}

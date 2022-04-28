@@ -1,13 +1,13 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-eight-ball',
   templateUrl: './eight-ball.component.html',
-  styleUrls: ['./eight-ball.component.scss']
+  styleUrls: ['./eight-ball.component.scss'],
 })
 export class EightBallComponent implements OnInit {
   userName: string = 'Byron';
-  askQuestion: string = 'Will I buy a house this year?';
+  askQuestion: string = '';
   eightBall: string = '';
   randomArr: Array<string> = [
     'Eish I dont know!',
@@ -22,15 +22,14 @@ export class EightBallComponent implements OnInit {
     'Haibo!',
   ];
 
-  constructor() {
-  }
+  constructor() {}
 
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 
   onSubName(): void {
-    this.userName.length > 0 ? console.log(`Hello ${this.userName}`) : console.log('Hello Guest!')
+    this.userName.length > 0
+      ? console.log(`Hello ${this.userName}`)
+      : console.log('Hello Guest!');
   }
 
   onAskQuiz(): void {
@@ -38,8 +37,8 @@ export class EightBallComponent implements OnInit {
   }
 
   onRandom(): string {
-    this.eightBall = this.randomArr[Math.floor(Math.random() * this.randomArr.length)];
+    this.eightBall =
+      this.randomArr[Math.floor(Math.random() * this.randomArr.length)];
     return this.eightBall;
   }
-
 }

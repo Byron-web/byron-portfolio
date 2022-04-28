@@ -1,0 +1,8 @@
+<div class="row d-flex flex-column">
+  <app-user-search></app-user-search>
+  <app-user-item
+    *ngFor="let user of users"
+    [user]="user"
+    class="col-12 p-1 user-body"
+  ></app-user-item>
+</div>
