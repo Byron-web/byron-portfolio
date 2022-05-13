@@ -14,7 +14,6 @@ const routes: Routes = [
   {
     path: 'calculator',
     component: CalculatorComponent,
-    canActivate: [AuthGuardGuard],
   },
   {
     path: 'eight-ball',

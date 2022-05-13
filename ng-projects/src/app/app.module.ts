@@ -44,6 +44,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { SearchFilterPipe } from './search-filter.pipe';
+import { HighlightDirective } from './highlight.pipe';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { SearchFilterPipe } from './search-filter.pipe';
     UserMenuComponent,
     UserSearchComponent,
     SearchFilterPipe,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,

@@ -1,18 +1,13 @@
-import {Component} from '@angular/core';
-
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-calculator',
   templateUrl: 'calculator.component.html',
-  styleUrls: ['calculator.component.scss']
+  styleUrls: ['calculator.component.scss'],
 })
-
-
 export class CalculatorComponent {
   public input: string = '';
   public output: number = 0;
-
-
 
   public onSubmit(value: string): void {
     this.input = this.input + value;
@@ -31,5 +26,4 @@ export class CalculatorComponent {
     const result = Function('return ' + this.input);
     this.output = result();
   }
-
 }
