@@ -45,6 +45,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { SearchFilterPipe } from './search-filter.pipe';
 import { HighlightDirective } from './highlight.pipe';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ProjectsMainComponent } from './Projects/projects-main/projects-main.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +70,8 @@ import { HighlightDirective } from './highlight.pipe';
     UserSearchComponent,
     SearchFilterPipe,
     HighlightDirective,
+    NavbarComponent,
+    ProjectsMainComponent,
   ],
   imports: [
     BrowserModule,
