@@ -47,6 +47,8 @@ import { SearchFilterPipe } from './search-filter.pipe';
 import { HighlightDirective } from './highlight.pipe';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsMainComponent } from './Projects/projects-main/projects-main.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -72,6 +74,8 @@ import { ProjectsMainComponent } from './Projects/projects-main/projects-main.co
     HighlightDirective,
     NavbarComponent,
     ProjectsMainComponent,
+    AboutComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
