@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -7,7 +6,7 @@ import { CalculatorComponent } from './portfolio/calculator/calculator.component
 import { HomeComponent } from './portfolio/home/home.component';
 import { EightBallComponent } from './portfolio/eight-ball/eight-ball.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserComponent } from './users/user/user.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserApiService } from './services/users-api.service';
@@ -43,12 +42,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
 import { SearchFilterPipe } from './search-filter.pipe';
 import { HighlightDirective } from './highlight.pipe';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsMainComponent } from './Projects/projects-main/projects-main.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgParticlesModule } from 'ng-particles';
 
 @NgModule({
   declarations: [
@@ -101,6 +112,19 @@ import { ContactComponent } from './contact/contact.component';
     MatInputModule,
     MatFormFieldModule,
     MatAutocompleteModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatDividerModule,
+    MatSliderModule,
+    MatListModule,
+    MatCardModule,
+    MatCheckboxModule,
+    ReactiveFormsModule,
+    FlexLayoutModule,
+    BrowserModule,
+    NgParticlesModule,
   ],
   providers: [UserApiService, AuthService],
   bootstrap: [AppComponent],

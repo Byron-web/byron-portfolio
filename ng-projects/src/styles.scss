@@ -36,6 +36,8 @@ $ng-projects-theme: mat.define-light-theme(
 
 @import "~bootstrap/dist/css/bootstrap.css";
 
+@import "~bootstrap/scss/bootstrap.scss";
+
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
@@ -43,6 +45,8 @@ $ng-projects-theme: mat.define-light-theme(
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 
 @import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 html,
 body {
@@ -52,6 +56,16 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-color: #191919;
   color: #cbcbcb;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
 }

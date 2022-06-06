@@ -1,5 +1,12 @@
 <div class="container-fluid home-container">
-  <div class="row">
+  <div class="row home-row">
+    <ng-particles
+      [id]="id"
+      [options]="particlesOptions"
+      (particlesLoaded)="particlesLoaded($event)"
+      [particlesInit]="particlesInit"
+      class="tsparticles"
+    ></ng-particles>
     <div class="col-1 home-social">
       <a href="https://www.linkedin.com/in/byron-labuschagne"
       ><img
@@ -7,6 +14,7 @@
         width="50"
         height="50"
         alt="LinkedIn"
+        class="home-img-icons"
       /></a>
       <a href="https://github.com/Byron-web">
         <img
@@ -14,28 +22,29 @@
           width="50"
           height="50"
           alt="Github"
+          class="home-img-icons"
         /></a>
     </div>
     <div class="col-1"></div>
     <!--make the 3 borders-->
-    <div class="col-5 home-body">
-      <h1 class="home-header">Hi, I'm Byron.</h1>
-      <h4 class="home-para">
+    <div class="col-5 col-12-sm home-body">
+      <h1 class="home-header">< Hello World, I'm Byron. /></h1>
+      <h4 class="home-para mt-5 mb-5">
         Junior software designer and developer from <br/>
         Johannesburg, SA. I design and create custom<br/>
         applications to help businesses grow.
       </h4>
-      <a routerLink="projects">
+      <a class="home-btn-main" routerLink="projects">
         <button class="btn btn-danger home-btn">My Projects</button>
       </a>
     </div>
     <div class="col-1"></div>
-    <div class="col-2">
+    <div class="col-2 home-img-main">
       <img
         class="home-img"
         src="../../../assets/img/byron.png"
-        width="271"
-        height="415"
+        width="463"
+        height="709"
         alt="Byron"
       />
     </div>

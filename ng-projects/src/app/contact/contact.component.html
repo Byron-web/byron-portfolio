@@ -1,1 +1,106 @@
-<p>contact works!</p>
+<div class="container contact-container">
+  <div class="row contact-main">
+    <div class="col-4 contact-side-info">
+      <img
+        src="../../assets/img/Byron-long%20BLK.png"
+        class="byron-logo"
+        alt="Byron Logo"
+      />
+      <H1>Contact Me</H1>
+      <div class="contact-side-content">
+        <div class="contact-details1">
+          <i class="bi bi-pin-map"></i>
+          <span>Edenvale,Johannesburg</span>
+        </div>
+        <div class="contact-details1">
+          <i class="bi bi-telephone"></i>
+          <span>081 547 4325</span>
+        </div>
+        <div class="contact-details1">
+          <i class="bi bi-envelope"></i>
+          <span>byron@byron-labuschagne.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-8 contact-form">
+      <form
+        id="fire-contact"
+        #contactForm="ngForm"
+        (ngSubmit)="submit(contactForm.value)"
+      >
+        <div class="form-group">
+          <label for="Name">Name</label>
+          <input
+            required
+            minlength="3"
+            maxlength="30"
+            ngModel
+            name="Name"
+            type="text"
+            #Name="ngModel"
+            class="form-control"
+            id="name"
+          />
+          <div class="alert alert-danger" *ngIf="Name.touched && !Name.valid">
+            <!--Name-->
+            <div *ngIf="Name.errors && Name.errors['required']">
+              First Name is required.
+            </div>
+            <div *ngIf="Name.errors && Name.errors['minlength']">
+              First Name is minimum
+              {{ Name.errors && Name.errors["minlength"].requiredLength }}
+              character.
+            </div>
+            <div *ngIf="Name.errors && Name.errors['maxlength']">
+              First Name is maximum 10 character.
+            </div>
+          </div>
+        </div>
+        <!--Email-->
+        <div class="form-group">
+          <label for="Email">Email</label>
+          <input
+            required
+            ngModel
+            name="Email"
+            type="text"
+            #Email="ngModel"
+            class="form-control"
+            id="email"
+          />
+          <div class="alert alert-danger" *ngIf="Email.touched && !Email.valid">
+            Email is required.
+          </div>
+        </div>
+        <!--comment-->
+        <div class="form-group">
+          <label for="comment">Comment</label>
+          <textarea
+            required
+            ngModel
+            #comment="ngModel"
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            class="form-control"
+          ></textarea>
+          <div
+            class="alert alert-danger"
+            *ngIf="comment.touched && !comment.valid"
+          >
+            Comment is required.
+          </div>
+        </div>
+
+        <button
+          class="btn btn-primary contact-btn"
+          type="submit"
+          [class.disabled]="!contactForm.valid"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
