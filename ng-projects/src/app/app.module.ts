@@ -61,6 +61,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgParticlesModule } from 'ng-particles';
 import { ScrollToSelectedDirective } from './directives/scrolltoselecteddirective.directive';
+import { FooterComponent } from './footer/footer.component';
+import { MoreInfoComponent } from './more-info/more-info.component';
 
 @NgModule({
   declarations: [
@@ -89,6 +91,8 @@ import { ScrollToSelectedDirective } from './directives/scrolltoselecteddirectiv
     AboutComponent,
     ContactComponent,
     ScrollToSelectedDirective,
+    FooterComponent,
+    MoreInfoComponent,
   ],
   imports: [
     BrowserModule,

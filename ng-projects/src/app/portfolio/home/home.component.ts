@@ -73,7 +73,7 @@ export class HomeComponent {
           default: OutMode.bounce,
         },
         random: false,
-        speed: 2,
+        speed: 1,
         straight: false,
       },
       number: {
@@ -81,7 +81,7 @@ export class HomeComponent {
           enable: false,
           area: 800,
         },
-        value: 60,
+        value: 100,
       },
       opacity: {
         value: 0.5,

@@ -1,5 +1,5 @@
-import { Component, EventEmitter, OnInit } from '@angular/core';
-import { AuthService } from '../services/auth.service';
+import {Component, EventEmitter, OnInit} from '@angular/core';
+import {AuthService} from '../services/auth.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,7 +7,30 @@ import { AuthService } from '../services/auth.service';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  constructor(public authService: AuthService) {}
+  constructor(public authService: AuthService) {
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
+
+  toHome() {
+    // @ts-ignore
+    document.getElementById('home').scrollIntoView();
+  }
+
+  toAbout() {
+    // @ts-ignore
+    document.getElementById('about').scrollIntoView();
+  }
+
+  toProjects() {
+    // @ts-ignore
+    document.getElementById('projects').scrollIntoView();
+  }
+
+  toContact() {
+    // @ts-ignore
+    document.getElementById('contact').scrollIntoView();
+  }
+
 }
