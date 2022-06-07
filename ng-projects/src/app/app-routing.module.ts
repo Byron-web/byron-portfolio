@@ -13,7 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsMainComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },

@@ -60,6 +60,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgParticlesModule } from 'ng-particles';
+import { ScrollToSelectedDirective } from './directives/scrolltoselecteddirective.directive';
 
 @NgModule({
   declarations: [
@@ -87,6 +88,7 @@ import { NgParticlesModule } from 'ng-particles';
     ProjectsMainComponent,
     AboutComponent,
     ContactComponent,
+    ScrollToSelectedDirective,
   ],
   imports: [
     BrowserModule,

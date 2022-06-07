@@ -1,7 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 import { AuthService } from './services/auth.service';
-
-declare var particlesJS: any;
 
 @Component({
   selector: 'app-root',
@@ -9,14 +7,17 @@ declare var particlesJS: any;
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
+  @ViewChild('myElem') MyProp: ElementRef | undefined;
   public input: string = '';
   public output: number = 0;
 
   constructor(public authService: AuthService) {}
 
-  ngOnInit(): void {
-    particlesJS.load('particles-js', 'assets/data/particles.json', function () {
-      console.log('callback - particles.js config loaded');
+  ngOnInit() {
+    // @ts-ignore
+    this.MyProp.nativeElement.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
     });
   }
 }

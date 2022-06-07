@@ -55,17 +55,11 @@ body {
 
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Brisk-Pro", "Helvetica Neue", sans-serif;
   color: #cbcbcb;
 }
 
-html,
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  overflow-x: hidden;
+@font-face {
+  font-family: "Brisk-Pro";
+  src: local("Brisk-Pro"), url("./assets/fonts/brisk-pro/Brisk-Pro.otf");
 }
