@@ -104,4 +104,9 @@ export class HomeComponent {
   particlesInit = async (engine: Engine): Promise<void> => {
     await loadFull(engine);
   };
+
+  toAbout() {
+    // @ts-ignore
+    document.getElementById('about').scrollIntoView();
+  }
 }

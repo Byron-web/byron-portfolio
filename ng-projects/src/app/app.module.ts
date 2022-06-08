@@ -63,6 +63,7 @@ import { NgParticlesModule } from 'ng-particles';
 import { ScrollToSelectedDirective } from './directives/scrolltoselecteddirective.directive';
 import { FooterComponent } from './footer/footer.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
+import { AboutReviewComponent } from './more-info/about-review/about-review.component';
 
 @NgModule({
   declarations: [
@@ -93,6 +94,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
     ScrollToSelectedDirective,
     FooterComponent,
     MoreInfoComponent,
+    AboutReviewComponent,
   ],
   imports: [
     BrowserModule,

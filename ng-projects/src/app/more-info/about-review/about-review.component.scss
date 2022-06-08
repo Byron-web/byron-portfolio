@@ -1,0 +1,32 @@
+.more-side-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 19%;
+}
+
+.more-side-info span,
+h1 {
+  font-size: 3rem;
+}
+
+.more-side-info h1 {
+  margin: 0;
+}
+
+.more-side-info span {
+  color: #a84646;
+}
+
+hr {
+  margin-right: 5px;
+  width: 20%;
+  height: 3px;
+  background-color: #cbcbcb !important;
+}
+
+.more-side-info-num-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
