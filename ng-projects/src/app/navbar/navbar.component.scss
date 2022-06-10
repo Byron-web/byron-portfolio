@@ -26,13 +26,13 @@
 }
 
 .top-nav {
+  z-index: 9999;
   position: fixed;
   top: 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #a84646;
   background: #363636;
   color: #fff;
   height: 50px;

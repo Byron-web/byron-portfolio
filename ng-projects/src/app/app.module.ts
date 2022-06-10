@@ -64,6 +64,7 @@ import { ScrollToSelectedDirective } from './directives/scrolltoselecteddirectiv
 import { FooterComponent } from './footer/footer.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
 import { AboutReviewComponent } from './more-info/about-review/about-review.component';
+import { SkillSetComponent } from './more-info/skill-set/skill-set.component';
 
 @NgModule({
   declarations: [
@@ -95,6 +96,7 @@ import { AboutReviewComponent } from './more-info/about-review/about-review.comp
     FooterComponent,
     MoreInfoComponent,
     AboutReviewComponent,
+    SkillSetComponent,
   ],
   imports: [
     BrowserModule,

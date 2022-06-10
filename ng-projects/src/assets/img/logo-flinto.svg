@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="257px" viewBox="0 0 256 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>flinto</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M200.4,256.1 L55.6,256.1 C24.9,256.1 0,231.2 0,200.5 L0,55.7 C0,25 24.9,0.1 55.6,0.1 L200.4,0.1 C231.1,0.1 256,25 256,55.7 L256,200.5 C256,231.2 231.1,256.1 200.4,256.1" id="path-1"></path>
+        <linearGradient x1="50.0264696%" y1="0.890936%" x2="50.0264696%" y2="99.938936%" id="linearGradient-3">
+            <stop stop-color="#FF8576" offset="0%"></stop>
+            <stop stop-color="#E6523D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.1667085%" y1="0.168371429%" x2="50.1667082%" y2="140.869559%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E8F2F4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.1667085%" y1="0.168371429%" x2="50.1667085%" y2="100.025514%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E8F2F4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0172038%" y1="0.0327065209%" x2="50.0172038%" y2="100.01478%" id="linearGradient-6">
+            <stop stop-color="#FDFEFE" offset="0%"></stop>
+            <stop stop-color="#E8F0F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.1535359%" y1="-0.0266692598%" x2="50.1535359%" y2="100.021563%" id="linearGradient-7">
+            <stop stop-color="#FDFEFE" offset="0%"></stop>
+            <stop stop-color="#E8F0F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0307686%" y1="-0.0107718085%" x2="50.0307686%" y2="99.9533239%" id="linearGradient-8">
+            <stop stop-color="#FEFEFE" offset="0%"></stop>
+            <stop stop-color="#E6EFF2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flinto">
+            <g id="Group-3" transform="translate(0.000000, 0.757000)">
+                <g id="Fill-1-Clipped">
+                    <g id="Fill-4-+-Fill-6-Mask">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#224E7B" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <polygon id="Fill-4" fill="#255688" fill-rule="nonzero" mask="url(#mask-2)" points="127.9 267 266.8 267 266.8 128.1 127.9 128.1"></polygon>
+                        <polygon id="Fill-6" fill="#1B3E62" fill-rule="nonzero" mask="url(#mask-2)" points="128.2 128.1 267.1 128.1 267.1 -10.8 128.2 -10.8"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-22" transform="translate(51.000000, 34.757000)" fill-rule="nonzero">
+                <path d="M150.3,124 L3.7,124 C1.8,124 0.2,122.5 0.2,120.5 L0.2,115 C0.2,113.1 1.7,111.5 3.7,111.5 L150.2,111.5 C152.1,111.5 153.7,113.1 153.7,115 L153.7,120.5 C153.7,122.4 152.2,124 150.3,124" id="Fill-8" fill="url(#linearGradient-3)"></path>
+                <path d="M83.1,132.3 L70.7,132.3 C69.7,132.3 69,131.5 69,130.6 L69,105.3 C69,104.3 69.8,103.6 70.7,103.6 L83.1,103.6 C84.1,103.6 84.8,104.4 84.8,105.3 L84.8,130.6 C84.8,131.5 84.1,132.3 83.1,132.3" id="Fill-10" stroke="#BBC8D7" fill="url(#linearGradient-4)"></path>
+                <path d="M82.4,28.8 L71.4,28.8 C69.9,28.8 68.7,27.6 68.7,26.1 L68.7,3.5 C68.7,2 69.9,0.8 71.4,0.8 L82.4,0.8 C83.9,0.8 85.1,2 85.1,3.5 L85.1,26.1 C85.1,27.6 83.9,28.8 82.4,28.8" id="Fill-12" stroke="#BBC8D7" fill="url(#linearGradient-5)"></path>
+                <path d="M9.1,185.9 L9.1,154.8 L48.9,77.5 L61.8,86.8 L10.9,186.3 C10.4,187.2 9.1,186.9 9.1,185.9" id="Fill-18" stroke="#CFD9E2" fill="url(#linearGradient-6)"></path>
+                <path d="M145,186.5 L145,155.4 L105.2,78.1 L92.3,87.4 L143.2,186.9 C143.8,187.7 145,187.4 145,186.5" id="Fill-20" stroke="#CFD9E2" fill="url(#linearGradient-7)"></path>
+                <path d="M114.5,55.7 C114.5,76.5 97.7,93.3 76.9,93.3 C56.1,93.3 39.3,76.4 39.3,55.7 C39.3,34.9 56.1,18.1 76.9,18.1 C97.7,18.1 114.5,34.9 114.5,55.7" id="Fill-14" stroke="#BBC8D7" fill="url(#linearGradient-8)"></path>
+                <path d="M99.2,55.7 C99.2,68 89.3,78 76.9,78 C64.6,78 54.6,68 54.6,55.7 C54.6,43.4 64.6,33.4 76.9,33.4 C89.3,33.4 99.2,43.4 99.2,55.7" id="Fill-16" stroke="#BBC8D7" fill="#1E446B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

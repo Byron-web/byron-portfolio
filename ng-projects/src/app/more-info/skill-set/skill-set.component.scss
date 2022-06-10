@@ -1,0 +1,120 @@
+.skill-set-main {
+  padding-top: 100px;
+  height: 100vh;
+  background: #333232;
+}
+
+.skill-set-card-body {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60%;
+}
+
+hr {
+  margin-right: 5px;
+  width: 100%;
+  height: 3px;
+  background-color: #cbcbcb !important;
+}
+
+.skill-set-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 3rem;
+  padding-right: 47px;
+}
+
+.skill-set-card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-set-card-main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-set-progress-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skill-set-progress-header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 51%;
+}
+
+.skill-set-progress-header-left h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+
+.skill-set-progress-header-left span {
+  font-size: 0.7rem;
+}
+
+.skill-set-progress-header-right h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+
+.more-side-info-num-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 7%;
+  padding-right: 17px;
+}
+
+.more-side-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.more-side-info span,
+h1 {
+  font-size: 3rem;
+}
+
+.more-side-info span {
+  color: #a84646;
+}
+
+.more-side-info h1 {
+  margin: 0px;
+}
+
+.progress-bar-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-img {
+  width: 80px;
+  height: 80px;
+}
+
+.about-header h1 {
+  padding-right: 400px !important;
+}
+
+.contact-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-btn {
+  margin-top: 100px;
+  margin-right: 22px;
+  width: 23%;
+  background: #a84646;
+}

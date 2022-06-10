@@ -42,7 +42,8 @@ hr {
 .more-info-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-top: 81px;
 }
 
 .more-info-description h1 {
@@ -64,4 +65,8 @@ hr {
 
 .more-info-passion {
   height: 100vh !important;
+}
+
+.more-info-btn {
+  background: #a84646;
 }

@@ -1,8 +1,18 @@
+.about-review-main {
+  padding-top: 100px;
+}
+
+.about-review-main {
+  height: 100vh;
+  background-color: #3a3a3a;
+}
+
 .more-side-info {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 19%;
+  margin-bottom: 138px;
 }
 
 .more-side-info span,
@@ -29,4 +39,41 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.about-review-card-main {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.about-review-card {
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-img {
+  width: 290px;
+  height: 250px;
+}
+
+.contact-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-btn {
+  margin-top: 70px;
+  margin-right: 22px;
+  width: 23%;
+  background: #a84646;
 }

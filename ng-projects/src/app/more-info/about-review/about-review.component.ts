@@ -3,13 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-about-review',
   templateUrl: './about-review.component.html',
-  styleUrls: ['./about-review.component.scss']
+  styleUrls: ['./about-review.component.scss'],
 })
 export class AboutReviewComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  toSkills() {
+    // @ts-ignore
+    document.getElementById('skill-set').scrollIntoView();
   }
-
 }
