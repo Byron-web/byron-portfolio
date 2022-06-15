@@ -17,6 +17,176 @@ hr {
   background-color: #cbcbcb !important;
 }
 
+.progress-wrapper {
+  height: 25px;
+  width: 100%;
+  margin-top: 13px;
+  margin-right: 5px;
+  background-color: #868585 !important;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress-fill-html {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-html;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-html {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+.progress-fill-js {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-html;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-js {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 35%;
+  }
+}
+
+.progress-fill-angular {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-angular;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-angular {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 35%;
+  }
+}
+
+.progress-fill-net {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-net;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-net {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 10%;
+  }
+}
+
+.progress-fill-sql {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-sql;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-sql {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 35%;
+  }
+}
+
+.progress-fill-cms {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-cms;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-cms {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+.progress-fill-figma {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-figma;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-figma {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+.progress-fill-flinto {
+  width: 0%;
+  height: 100%;
+  background-color: #a84646;
+  animation-name: fill-flinto;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  will-change: auto;
+}
+
+@keyframes fill-flinto {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+
 .skill-set-title {
   display: flex;
   flex-direction: row;
@@ -117,4 +287,95 @@ h1 {
   margin-right: 22px;
   width: 23%;
   background: #a84646;
+}
+
+@media (max-width: 420px) {
+  .skill-set-main {
+    padding-top: 0px;
+    height: auto;
+  }
+
+  .more-side-info {
+    margin-bottom: 35px;
+    padding-top: 60px;
+  }
+
+  .skill-set-card-body {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+  }
+
+  .skill-set-card-main {
+    width: 100%;
+  }
+
+  .skill-body-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .skill-img {
+    margin-top: 11px;
+  }
+
+  .more-side-info span,
+  h1 {
+    font-size: 2rem;
+  }
+
+  .more-side-info {
+    width: 100%;
+  }
+
+  .skill-set-title {
+    width: 54%;
+  }
+
+  .more-side-info-num-1 {
+    width: 24%;
+  }
+
+  .skill-img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .skill-set-progress-header-left h1 {
+    font-size: 0.9rem;
+  }
+
+  .skill-set-progress-header-left {
+    justify-content: start;
+    width: 61%;
+  }
+
+  .skill-set-progress-header-left span {
+    margin-left: 5px;
+    font-size: 0.6rem;
+  }
+
+  .skill-card-wrapper {
+    margin-bottom: 1.8rem;
+  }
+
+  .contact-button-wrapper {
+    padding-bottom: 15px;
+  }
+
+  .contact-btn {
+    margin-top: 10px;
+    margin-right: 0px;
+    width: auto;
+    margin-bottom: 15px;
+  }
+
+  .progress-wrapper {
+    margin-top: 0px;
+    height: 18px;
+  }
+  .progress-fill-html {
+    background-color: #0277bd;
+  }
 }

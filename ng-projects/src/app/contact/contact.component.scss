@@ -1,6 +1,7 @@
 .contact-container {
   height: 95vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(
@@ -95,13 +96,23 @@
   justify-content: space-evenly;
 }
 
-.contact-btn {
-  margin-top: 25px;
-  width: 100%;
+.home-btn-wrapper {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+}
+
+.home-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
   background-color: #a84646;
 }
 
-.contact-btn:hover {
+.home-btn:hover {
   background-color: #a82c2c;
 }
 
@@ -183,4 +194,8 @@
   .contact-details1 i {
     margin-right: 5px;
   }
+}
+
+.back-to-top {
+  width: 43px;
 }

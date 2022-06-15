@@ -3,7 +3,51 @@
   display: flex;
   align-items: center;
   padding: 50px;
-  background-image: url("../../assets/img/about-img-2.png");
+  background-image: linear-gradient(
+      12deg,
+      rgba(193, 193, 193, 0.05) 0%,
+      rgba(193, 193, 193, 0.05) 2%,
+      rgba(129, 129, 129, 0.05) 2%,
+      rgba(129, 129, 129, 0.05) 27%,
+      rgba(185, 185, 185, 0.05) 27%,
+      rgba(185, 185, 185, 0.05) 66%,
+      rgba(83, 83, 83, 0.05) 66%,
+      rgba(83, 83, 83, 0.05) 100%
+    ),
+    linear-gradient(
+      321deg,
+      rgba(240, 240, 240, 0.05) 0%,
+      rgba(240, 240, 240, 0.05) 13%,
+      rgba(231, 231, 231, 0.05) 13%,
+      rgba(231, 231, 231, 0.05) 34%,
+      rgba(139, 139, 139, 0.05) 34%,
+      rgba(139, 139, 139, 0.05) 71%,
+      rgba(112, 112, 112, 0.05) 71%,
+      rgba(112, 112, 112, 0.05) 100%
+    ),
+    linear-gradient(
+      236deg,
+      rgba(189, 189, 189, 0.05) 0%,
+      rgba(189, 189, 189, 0.05) 47%,
+      rgba(138, 138, 138, 0.05) 47%,
+      rgba(138, 138, 138, 0.05) 58%,
+      rgba(108, 108, 108, 0.05) 58%,
+      rgba(108, 108, 108, 0.05) 85%,
+      rgba(143, 143, 143, 0.05) 85%,
+      rgba(143, 143, 143, 0.05) 100%
+    ),
+    linear-gradient(
+      96deg,
+      rgba(53, 53, 53, 0.05) 0%,
+      rgba(53, 53, 53, 0.05) 53%,
+      rgba(44, 44, 44, 0.05) 53%,
+      rgba(44, 44, 44, 0.05) 82%,
+      rgba(77, 77, 77, 0.05) 82%,
+      rgba(77, 77, 77, 0.05) 98%,
+      rgba(8, 8, 8, 0.05) 98%,
+      rgba(8, 8, 8, 0.05) 100%
+    ),
+    linear-gradient(334deg, hsl(247, 0%, 2%), hsl(247, 0%, 2%));
 }
 
 .about-hero h1 {
@@ -22,8 +66,61 @@
   height: 40%;
 }
 
-.about-down {
+.about-down-1 {
   width: 180px;
   height: 50px;
-  border-radius: 10%;
+  background-color: #a84646;
+}
+
+.about-down-2 {
+  width: 200px;
+  height: 50px;
+  background-color: #a84646;
+}
+
+.about-down-2 a {
+  color: #fff;
+}
+
+.about-down-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (max-width: 415px) {
+  .about-main {
+    align-items: center;
+    width: 100%;
+  }
+
+  .about-hero {
+    padding: 10px;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+    color: #a84646;
+  }
+
+  .about-hero h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .about-down-1 {
+    font-size: 0.8rem;
+    width: 150px;
+  }
+
+  .about-down-2 {
+    font-size: 0.8rem;
+    width: 150px;
+  }
 }

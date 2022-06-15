@@ -1,10 +1,7 @@
 .about-review-main {
-  padding-top: 100px;
-}
-
-.about-review-main {
   height: 100vh;
   background-color: #3a3a3a;
+  padding-top: 100px;
 }
 
 .more-side-info {
@@ -76,4 +73,37 @@ hr {
   margin-right: 22px;
   width: 23%;
   background: #a84646;
+}
+
+@media (max-width: 420px) {
+  .about-review-main-row {
+    margin: 0px !important;
+  }
+
+  .about-review-main {
+    height: 254vh;
+    padding-top: 90px;
+  }
+
+  .more-side-info {
+    margin-bottom: 100px;
+  }
+  .about-review-card-main {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .about-review-card {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+
+  .contact-btn {
+    margin-top: 0px;
+    width: auto;
+    margin-bottom: 2em;
+    margin-right: 0px;
+  }
 }

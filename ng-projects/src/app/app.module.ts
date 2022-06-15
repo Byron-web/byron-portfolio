@@ -65,6 +65,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
 import { AboutReviewComponent } from './more-info/about-review/about-review.component';
 import { SkillSetComponent } from './more-info/skill-set/skill-set.component';
+import { ContactService } from './services/contact.service';
 
 @NgModule({
   declarations: [
@@ -136,7 +137,7 @@ import { SkillSetComponent } from './more-info/skill-set/skill-set.component';
     BrowserModule,
     NgParticlesModule,
   ],
-  providers: [UserApiService, AuthService],
+  providers: [UserApiService, AuthService, ContactService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,3 +1,8 @@
+.review-row {
+  margin-top: 81px;
+  height: 100%;
+}
+
 .more-info-main {
   display: flex;
   flex-direction: column;
@@ -42,8 +47,7 @@ hr {
 .more-info-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-top: 81px;
+  justify-content: flex-start;
 }
 
 .more-info-description h1 {
@@ -59,7 +63,7 @@ hr {
 .more-info-description-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   height: 50%;
 }
 
@@ -69,4 +73,34 @@ hr {
 
 .more-info-btn {
   background: #a84646;
+}
+
+@media (max-width: 420px) {
+  .review-row {
+    margin-top: 0px;
+  }
+
+  .more-info-first-col {
+    margin-bottom: -230px;
+  }
+
+  .more-side-info span {
+    font-size: 2rem;
+  }
+
+  .more-side-info h1 {
+    font-size: 2rem;
+  }
+
+  .more-info-description h1 {
+    font-size: 1.7rem;
+  }
+
+  .more-info-description p {
+    font-size: 1rem;
+  }
+
+  .more-info-description-text {
+    height: 58%;
+  }
 }

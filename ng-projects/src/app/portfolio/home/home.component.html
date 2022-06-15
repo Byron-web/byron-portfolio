@@ -7,46 +7,62 @@
       [particlesInit]="particlesInit"
       class="tsparticles"
     ></ng-particles>
-    <div class="col-1 home-social">
-      <a href="https://www.linkedin.com/in/byron-labuschagne"
-      ><img
-        src="../../../assets/img/linkedin-logo.png"
-        width="50"
-        height="50"
-        alt="LinkedIn"
-        class="home-img-icons"
-      /></a>
-      <a href="https://github.com/Byron-web">
-        <img
-          src="../../../assets/img/github.png"
-          width="50"
-          height="50"
-          alt="Github"
-          class="home-img-icons"
-        /></a>
-    </div>
-    <div class="col-1"></div>
-    <!--make the 3 borders-->
-    <div class="col-5 col-12-sm home-body">
-      <h1 class="home-header">< Hello World, I'm Byron. /></h1>
-      <h4 class="home-para mt-5 mb-5">
-        Junior software designer and developer from <br/>
-        Johannesburg, SA. I design and create custom<br/>
-        applications to help businesses grow.
-      </h4>
-      <a class="home-btn-main" (click)="toAbout()">
-        <button class="btn btn-danger home-btn">About</button>
-      </a>
-    </div>
-    <div class="col-1"></div>
-    <div class="col-2 home-img-main">
-      <img
-        class="home-img"
-        src="../../../assets/img/byron.png"
-        width="463"
-        height="709"
-        alt="Byron"
-      />
+    <div class="col-12 home-wrapper">
+      <img class="home-avatar" src="../../../assets/img/avataaars.svg" alt=""/>
+      <div class="col-1"></div>
+      <div class="col-5 col-12-sm home-body mt-5">
+        <h1 class="home-header">< Hello World, I'm Byron. /></h1>
+        <h4 class="home-para">
+          Junior software designer and developer from <br/>
+          Johannesburg, SA. I design and create custom<br/>
+          applications to help businesses grow.
+        </h4>
+        <a class="home-btn-main" (click)="toAbout()">
+          <button class="btn btn-danger home-btn">About</button>
+        </a>
+      </div>
     </div>
   </div>
 </div>
+
+<!-- <div class="col-1 home-social">
+   <a href="https://www.linkedin.com/in/byron-labuschagne"
+   ><img
+     src="../../../assets/img/linkedin-logo.png"
+     width="50"
+     height="50"
+     alt="LinkedIn"
+     class="home-img-icons"
+   /></a>
+   <a href="https://github.com/Byron-web">
+     <img
+       src="../../../assets/img/github.png"
+       width="50"
+       height="50"
+       alt="Github"
+       class="home-img-icons"
+     /></a>
+ </div>
+ <div class="col-1"></div>
+ &lt;!&ndash;make the 3 borders&ndash;&gt;
+ <div class="col-5 col-12-sm home-body">
+   <h1 class="home-header">< Hello World, I'm Byron. /></h1>
+   <h4 class="home-para mt-5 mb-5">
+     Junior software designer and developer from <br/>
+     Johannesburg, SA. I design and create custom<br/>
+     applications to help businesses grow.
+   </h4>
+   <a class="home-btn-main" (click)="toAbout()">
+     <button class="btn btn-danger home-btn">About</button>
+   </a>
+ </div>
+ <div class="col-1"></div>
+ <div class="col-2 home-img-main">
+   <img
+     class="home-img"
+     src="../../../assets/img/byron.png"
+     width="463"
+     height="709"
+     alt="Byron"
+   />
+ </div>-->

@@ -13,94 +13,70 @@
           <span>Edenvale,Johannesburg</span>
         </div>
         <div class="contact-details1">
-          <i class="bi bi-telephone"></i>
-          <span>081 547 4325</span>
-        </div>
-        <div class="contact-details1">
           <i class="bi bi-envelope"></i>
           <span>byron@byron-labuschagne.com</span>
         </div>
       </div>
     </div>
     <div class="col-8 contact-form">
-      <form
-        id="fire-contact"
-        #contactForm="ngForm"
-        (ngSubmit)="submit(contactForm.value)"
-      >
+      <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
         <div class="form-group">
           <label for="Name">Name</label>
           <input
-            required
             minlength="3"
             maxlength="30"
             ngModel
             name="Name"
+            placeholder="Full Name"
+            formControlName="Name"
             type="text"
-            #Name="ngModel"
             class="form-control"
             id="name"
           />
-          <div class="alert alert-danger" *ngIf="Name.touched && !Name.valid">
-            <!--Name-->
-            <div *ngIf="Name.errors && Name.errors['required']">
-              First Name is required.
-            </div>
-            <div *ngIf="Name.errors && Name.errors['minlength']">
-              First Name is minimum
-              {{ Name.errors && Name.errors["minlength"].requiredLength }}
-              character.
-            </div>
-            <div *ngIf="Name.errors && Name.errors['maxlength']">
-              First Name is maximum 10 character.
-            </div>
-          </div>
         </div>
         <!--Email-->
         <div class="form-group">
           <label for="Email">Email</label>
           <input
-            required
-            ngModel
             name="Email"
-            type="text"
-            #Email="ngModel"
+            type="email"
             class="form-control"
             id="email"
+            placeholder="Enter email"
+            formControlName="Email"
+            aria-describedby="emailHelp"
           />
-          <div class="alert alert-danger" *ngIf="Email.touched && !Email.valid">
-            Email is required.
-          </div>
+          <small id="emailHelp" class="form-text text-muted"
+          >We'll never share your email with anyone else.</small
+          >
         </div>
-        <!--comment-->
         <div class="form-group">
           <label for="comment">Comment</label>
           <textarea
             required
             ngModel
-            #comment="ngModel"
-            name="comment"
+            formControlName="Comment"
+            name="Comment"
             id="comment"
             cols="30"
             rows="10"
             class="form-control"
           ></textarea>
-          <div
-            class="alert alert-danger"
-            *ngIf="comment.touched && !comment.valid"
-          >
-            Comment is required.
-          </div>
         </div>
 
         <button
           class="btn btn-primary contact-btn"
           type="submit"
-          [class.disabled]="!contactForm.valid"
+          [disabled]="!FormData.valid"
         >
           Submit
         </button>
       </form>
     </div>
   </div>
+  <!--<div class="home-btn-wrapper mt-4">
+    <button class="btn btn-danger home-btn" (click)="toHome()">
+      <img class="back-to-top" src="../../assets/img/arrow-up.svg" alt=""/>
+    </button>
+  </div>-->
 </div>
