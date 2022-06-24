@@ -19,7 +19,7 @@ export class HomeComponent {
   particlesOptions = {
     background: {
       color: {
-        value: '#333232',
+        value: '#343434',
       },
     },
     fullScreen: {
@@ -54,7 +54,7 @@ export class HomeComponent {
     },
     particles: {
       color: {
-        value: '#ffffff',
+        value: '#949494',
       },
       links: {
         color: '#868585',

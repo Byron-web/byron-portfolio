@@ -1,0 +1,75 @@
+#projects {
+  height: 200vh;
+  padding-top: 100px;
+  background-image: repeating-linear-gradient(
+      90deg,
+      rgb(32, 32, 32) 0px,
+      rgb(32, 32, 32) 2px,
+      rgb(33, 33, 33) 2px,
+      rgb(33, 33, 33) 4px,
+      rgb(34, 34, 34) 4px,
+      rgb(34, 34, 34) 6px,
+      rgb(33, 33, 33) 6px,
+      rgb(33, 33, 33) 8px,
+      rgb(36, 36, 36) 8px,
+      rgb(36, 36, 36) 10px,
+      rgb(35, 35, 35) 10px,
+      rgb(35, 35, 35) 12px,
+      rgb(33, 33, 33) 12px,
+      rgb(33, 33, 33) 14px,
+      rgb(32, 32, 32) 14px,
+      rgb(32, 32, 32) 16px,
+      rgb(36, 36, 36) 16px,
+      rgb(36, 36, 36) 18px,
+      rgb(34, 34, 34) 18px,
+      rgb(34, 34, 34) 20px,
+      rgb(35, 35, 35) 20px,
+      rgb(35, 35, 35) 22px,
+      rgb(35, 35, 35) 22px,
+      rgb(35, 35, 35) 24px
+  );
+}
+
+.calculator-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.project-header {
+  display: flex;
+  justify-content: end;
+}
+
+.project-header h1 {
+  font-size: 2.5rem;
+}
+
+.project-body {
+}
+
+.project-info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 44%;
+}
+
+.project-description {
+  padding: 25px;
+  background: #a84646;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.project-description p {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.stack-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}

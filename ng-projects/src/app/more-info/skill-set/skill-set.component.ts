@@ -10,8 +10,8 @@ export class SkillSetComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  toContact() {
+  toProjects() {
     // @ts-ignore
-    document.getElementById('contact').scrollIntoView();
+    document.getElementById('projects').scrollIntoView();
   }
 }

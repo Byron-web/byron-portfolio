@@ -7,10 +7,18 @@
   background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
+}
 
+.magic-wrapper {
+  background: #a84646;
+  padding: 30px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
 }
 
 .answer {
   z-index: 1000;
   color: #d0d0d0;
+  font-size: 0.7rem;
+  padding-right: 7px;
 }

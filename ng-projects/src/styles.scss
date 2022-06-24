@@ -56,11 +56,46 @@ body {
 
 body {
   margin: 0px;
-  font-family: "Brisk-Pro", "Helvetica Neue", sans-serif;
+  font-family: Oranienbaum, "Helvetica Neue", sans-serif;
   color: #cbcbcb;
 }
 
 @font-face {
   font-family: "Brisk-Pro";
   src: local("Brisk-Pro"), url("./assets/fonts/brisk-pro/Brisk-Pro.otf");
+}
+
+@font-face {
+  font-family: chicola-smoothy;
+  src: url(./assets/fonts/chicola-smoothy.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: aliseo;
+  src: url(./assets/fonts/ALISEO-NonCommercial.otf) format("opentype");
+}
+
+@font-face {
+  font-family: blanka;
+  src: url(./assets/fonts/Blanka-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: figa;
+  src: url(./assets/fonts/Figa.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: forvertz;
+  src: url(./assets/fonts/Forvertz.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: Oranienbaum;
+  src: url(./assets/fonts/Oranienbaum.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: Polya;
+  src: url(./assets/fonts/POLYA.otf) format("opentype");
 }

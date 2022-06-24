@@ -1,11 +1,11 @@
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <section class="top-nav">
   <div class="col-3">
     <a class="navbar-brand" (click)="toHome()" routerLink="/"
-    >Byron &nbsp; <span class="Surname">Labuschagne</span>
+      >Byron &nbsp; <span class="Surname">Labuschagne</span>
     </a>
   </div>
-  <input id="menu-toggle" type="checkbox"/>
+  <input id="menu-toggle" type="checkbox" />
   <label class="menu-button-container" for="menu-toggle">
     <div class="menu-button"></div>
   </label>
@@ -21,7 +21,7 @@
       routerLinkActive="active"
       [routerLinkActiveOptions]="{ exact: true }"
     >
-      <a class="nav-link" routerLink="projects">Projects</a>
+      <a class="nav-link" routerLink="/projects">Projects</a>
     </li>
     <li class="nav-item" routerLinkActive="active">
       <a class="nav-link" (click)="toContact()" routerLink="contact">Contact</a>

@@ -1,7 +1,51 @@
 .skill-set-main {
-  padding-top: 100px;
+  padding-top: 50px;
   height: 100vh;
-  background: #333232;
+  background-image: repeating-linear-gradient(
+      45deg,
+      hsla(207, 0%, 63%, 0.05) 0px,
+      hsla(207, 0%, 63%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(207, 0%, 63%, 0.05) 11px,
+      hsla(207, 0%, 63%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+  ),
+  repeating-linear-gradient(
+      0deg,
+      hsla(207, 0%, 63%, 0.05) 0px,
+      hsla(207, 0%, 63%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(207, 0%, 63%, 0.05) 11px,
+      hsla(207, 0%, 63%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+  ),
+  repeating-linear-gradient(
+      135deg,
+      hsla(207, 0%, 63%, 0.05) 0px,
+      hsla(207, 0%, 63%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(207, 0%, 63%, 0.05) 11px,
+      hsla(207, 0%, 63%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+  ),
+  repeating-linear-gradient(
+      90deg,
+      hsla(207, 0%, 63%, 0.05) 0px,
+      hsla(207, 0%, 63%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(207, 0%, 63%, 0.05) 11px,
+      hsla(207, 0%, 63%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+  ),
+  linear-gradient(90deg, rgb(17, 17, 17), rgb(66, 66, 66));
 }
 
 .skill-set-card-body {
@@ -51,7 +95,7 @@ hr {
   width: 0%;
   height: 100%;
   background-color: #a84646;
-  animation-name: fill-html;
+  animation-name: fill-js;
   animation-duration: 2.3s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
@@ -246,7 +290,7 @@ hr {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .more-side-info span,
@@ -374,8 +418,5 @@ h1 {
   .progress-wrapper {
     margin-top: 0px;
     height: 18px;
-  }
-  .progress-fill-html {
-    background-color: #0277bd;
   }
 }

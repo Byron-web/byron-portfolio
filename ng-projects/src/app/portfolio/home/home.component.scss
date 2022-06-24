@@ -37,9 +37,9 @@
 
 .home-header {
   font-size: 3rem;
+  font-weight: 600;
   color: #a84646;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .home-para {
@@ -71,6 +71,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 
 /*MEDIA QUERIES*/
