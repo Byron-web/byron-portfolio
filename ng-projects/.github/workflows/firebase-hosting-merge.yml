@@ -17,5 +17,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BYRON_LABUSCHAGNE }}'
           channelId: live
           projectId: byron-labuschagne
-          entrypoint: ../../
+          entrypoint: ../../firebase.json
          
