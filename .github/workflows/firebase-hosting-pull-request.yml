@@ -2,15 +2,27 @@
 # https://github.com/firebase/firebase-tools
 
 name: Deploy to Firebase Hosting on PR
+<<<<<<< HEAD
 'on': pull_request
 jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
+=======
+"on": pull_request
+jobs:
+  build_and_preview:
+    if: "${{ github.event.pull_request.head.repo.full_name == github.repository }}"
+>>>>>>> 2d1dd10c1dc4791bd3bda121eff45b2fca9599ad
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
+<<<<<<< HEAD
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BYRON_LABUSCHAGNE }}'
+=======
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BYRON_LABUSCHAGNE }}"
+>>>>>>> 2d1dd10c1dc4791bd3bda121eff45b2fca9599ad
           projectId: byron-labuschagne
