@@ -1,6 +1,10 @@
 {
   "hosting": {
+<<<<<<< HEAD
     "public": "public",
+=======
+    "public": "dist/ng-projects",
+>>>>>>> c05f67420def8c9aa15be964ffaf79787f2f3aac
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -12,5 +16,16 @@
         "destination": "/index.html"
       }
     ]
+<<<<<<< HEAD
+=======
+  },
+  "emulators": {
+    "hosting": {
+      "port": 5033
+    },
+    "ui": {
+      "enabled": true
+    }
+>>>>>>> c05f67420def8c9aa15be964ffaf79787f2f3aac
   }
 }
