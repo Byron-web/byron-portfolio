@@ -188,7 +188,20 @@
   }
 }
 
-@media (max-width: 538px) {
+@media (max-width: 812px) and (orientation: landscape) {
+  .contact-container {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-main {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 500px) {
   .contact-details1 {
     padding: 0px;
     background-color: #a84646;
@@ -197,6 +210,10 @@
   }
   .contact-details1 i {
     margin-right: 5px;
+  }
+
+  .contact-main {
+    width: 100%;
   }
 }
 

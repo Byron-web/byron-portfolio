@@ -10,12 +10,16 @@
       <div class="project-body">
         <div class="project-description">
           <p class="m-0">
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description
+            A quick web app I built using bootstrap and TypeScript. First I
+            added two variables into my component class: public input:string = '
+            '; public output: number = 0; originally I made both variables public
+            as I was retrieving them from my app component. I then created
+            several functions. onSubmit() adds value to input. onClear() resets
+            the values of the variables. onRemove uses substring() and .length
+            to remove the last index from input (-1) onEquals has a variable
+            called result which calls an anon function with the arguments
+            ('return ' + this.input) and then prints the answer with this.output
+            = result();
           </p>
         </div>
         <div class="stack-wrapper">
@@ -25,9 +29,14 @@
         </div>
       </div>
     </div>
-    <div class="col-1"></div>
+    <!--<div class="col-1"></div>-->
+    <div class="col-1 col-md-12 contact-btn-wrapper">
+      <button (click)="toMagic()" class="btn btn-danger contact-btn">
+        Magic Ball
+      </button>
+    </div>
   </div>
-  <div class="row calculator-wrapper">
+  <div id="eightball" class="row eightball-wrapper">
     <div class="col-xs-12 col-lg-6">
       <app-eight-ball></app-eight-ball>
     </div>
@@ -38,12 +47,17 @@
       <div class="project-body">
         <div class="project-description">
           <p class="m-0">
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description Description Description Description
-            Description Description
+            A web app built for a little bit of fun. Users ask a question to the
+            magic ball and it responds with an answer from a list of random
+            answers. This app was built inside of Angular using bootstrap and
+            css for the design and Typescript for the logic. I created 2
+            variables within my component class namely: eightBall: string = ''
+            and randomArr: Array&lt;string&gt; = ['answers here'] I then created
+            a function called "onRandom" and targeted "eightBall" to populate
+            the answer within the array using its length. The Answers were
+            generated randomly using Math.random() and was rounded up to the
+            nearest full index number with Math.floor(). I finally returned
+            this.eightball
           </p>
         </div>
         <div class="stack-wrapper">
@@ -53,6 +67,11 @@
         </div>
       </div>
     </div>
-    <div class="col-1"></div>
+    <div class="col-1 col-md-12 contact-btn-wrapper">
+      <button (click)="toContact()" class="btn btn-danger contact-btn">
+        Contact
+      </button>
+    </div>
   </div>
+  <div class="row"></div>
 </div>

@@ -17,6 +17,7 @@ export class EightBallComponent implements OnInit {
     'Cannot predict now',
     'Do not count on it',
     'My sources say no',
+    'Hire Byron!!!',
     'Outlook not so good',
     'Signs point to yes',
     'Haibo!',
@@ -26,15 +27,15 @@ export class EightBallComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onSubName(): void {
+  /*onSubName(): void {
     this.userName.length > 0
       ? console.log(`Hello ${this.userName}`)
       : console.log('Hello Guest!');
-  }
+  }*/
 
-  onAskQuiz(): void {
-    console.log(`${this.userName} asked: ${this.askQuestion}`);
-  }
+  /* onAskQuiz(): void {
+     console.log(`${this.userName} asked: ${this.askQuestion}`);
+   }*/
 
   onRandom(): string {
     this.eightBall =

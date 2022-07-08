@@ -1,36 +1,36 @@
 #projects {
   height: 200vh;
-  padding-top: 100px;
-  background-image: repeating-linear-gradient(
+  padding-top: 7px;
+  background-image: radial-gradient(
+      circle at center center,
+      transparent 0%,
+      rgb(33, 33, 33) 99%
+  ),
+  repeating-linear-gradient(
+      0deg,
+      rgba(163, 163, 163, 0.2) 0px,
+      rgba(163, 163, 163, 0.2) 1px,
+      transparent 1px,
+      transparent 6px
+  ),
+  repeating-linear-gradient(
       90deg,
-      rgb(32, 32, 32) 0px,
-      rgb(32, 32, 32) 2px,
-      rgb(33, 33, 33) 2px,
-      rgb(33, 33, 33) 4px,
-      rgb(34, 34, 34) 4px,
-      rgb(34, 34, 34) 6px,
-      rgb(33, 33, 33) 6px,
-      rgb(33, 33, 33) 8px,
-      rgb(36, 36, 36) 8px,
-      rgb(36, 36, 36) 10px,
-      rgb(35, 35, 35) 10px,
-      rgb(35, 35, 35) 12px,
-      rgb(33, 33, 33) 12px,
-      rgb(33, 33, 33) 14px,
-      rgb(32, 32, 32) 14px,
-      rgb(32, 32, 32) 16px,
-      rgb(36, 36, 36) 16px,
-      rgb(36, 36, 36) 18px,
-      rgb(34, 34, 34) 18px,
-      rgb(34, 34, 34) 20px,
-      rgb(35, 35, 35) 20px,
-      rgb(35, 35, 35) 22px,
-      rgb(35, 35, 35) 22px,
-      rgb(35, 35, 35) 24px
-  );
+      rgba(163, 163, 163, 0.2) 0px,
+      rgba(163, 163, 163, 0.2) 1px,
+      transparent 1px,
+      transparent 6px
+  ),
+  linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
 }
 
 .calculator-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.eightball-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,4 +72,89 @@
 .stack-wrapper {
   display: flex;
   justify-content: space-evenly;
+}
+
+.contact-btn {
+  background-color: #a84646;
+}
+
+@media (max-width: 1600px) {
+  #projects {
+    height: 205vh;
+  }
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+  #projects {
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .project-header {
+      justify-content: center;
+    }
+
+    .project-info-block {
+      height: auto;
+      justify-content: center;
+    }
+
+    .contact-btn {
+      width: 100%;
+    }
+  }
+
+
+  .calculator-wrapper {
+    height: auto;
+  }
+
+  .eightball-wrapper {
+    height: auto;
+  }
+
+  .contact-btn-wrapper {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .contact-btn {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  #projects {
+    height: auto;
+  }
+
+  .calculator-wrapper {
+    height: auto;
+  }
+
+  .eightball-wrapper {
+    height: auto;
+    margin-top: 86px;
+  }
+
+  .project-header {
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .project-header h1 {
+    font-size: 2rem;
+  }
+
+  .contact-btn-wrapper {
+    padding-bottom: 15px;
+    width: 100%;
+  }
+
+  .contact-btn {
+    margin-top: 10px;
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }

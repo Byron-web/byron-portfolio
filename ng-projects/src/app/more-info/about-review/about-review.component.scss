@@ -98,19 +98,43 @@ hr {
   background: #a84646;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 1600px) {
+  .about-review-main {
+    height: auto;
+  }
+
+  .more-side-info {
+    margin-bottom: 74px;
+  }
+
+  .contact-btn {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
   .about-review-main-row {
     margin: 0px !important;
   }
 
-  .about-review-main {
-    height: 254vh;
-    padding-top: 90px;
+  .c6-space {
+    display: none;
   }
 
   .more-side-info {
-    margin-bottom: 100px;
+    margin-bottom: 93px;
   }
+
+  .more-side-info span,
+  h1 {
+    font-size: 2rem;
+  }
+
+  .about-review-main {
+    height: auto;
+    padding-top: 67px;
+  }
+
   .about-review-card-main {
     flex-direction: column;
     align-items: center;
@@ -125,8 +149,121 @@ hr {
 
   .contact-btn {
     margin-top: 0px;
-    width: auto;
+    width: 100%;
     margin-bottom: 2em;
     margin-right: 0px;
+  }
+
+  .contact-btn:hover {
+    background-color: #a82c2c;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  .about-review-main {
+    height: auto;
+  }
+
+  .about-review-card-main {
+    flex-direction: column;
+  }
+
+  .about-review-card {
+    margin-top: 40px;
+  }
+
+  .about-review-heading {
+    margin-top: 0px !important;
+  }
+
+  .about-review-card {
+    width: 100%;
+  }
+
+  .more-side-info {
+    margin-bottom: 50px;
+  }
+
+  .more-side-info span {
+    font-size: 2.5rem;
+  }
+
+  .contact-btn {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+  .review-img {
+    width: 150px;
+    height: auto;
+  }
+
+  .about-review-card {
+    margin-top: 0px;
+  }
+
+  .about-review-heading h1 {
+    margin-bottom: 0px;
+  }
+
+  .card-para {
+    margin-top: 0px !important;
+  }
+
+  .about-review-card p {
+    font-size: 1rem;
+    margin-top: 0px !important;
+  }
+
+  .more-side-info {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-review-main-row {
+    margin: 0px !important;
+  }
+
+  .c6-space {
+    display: none;
+  }
+
+  .more-side-info {
+    margin-bottom: 93px;
+  }
+
+  .more-side-info span,
+  h1 {
+    font-size: 2rem;
+  }
+
+  .about-review-main {
+    height: 255vh;
+    padding-top: 67px;
+  }
+
+  .about-review-card-main {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .about-review-card {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+
+  .contact-btn {
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 2em;
+    margin-right: 0px;
+  }
+
+  .contact-btn:hover {
+    background-color: #a82c2c;
   }
 }

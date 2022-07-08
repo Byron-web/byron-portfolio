@@ -60,7 +60,7 @@ export class HomeComponent {
         color: '#868585',
         distance: 150,
         enable: true,
-        opacity: 0.5,
+        opacity: 0.3,
         width: 1,
       },
       collisions: {
@@ -73,7 +73,7 @@ export class HomeComponent {
           default: OutMode.bounce,
         },
         random: false,
-        speed: 1,
+        speed: 0.4,
         straight: false,
       },
       number: {
@@ -81,13 +81,13 @@ export class HomeComponent {
           enable: false,
           area: 800,
         },
-        value: 100,
+        value: 60,
       },
       opacity: {
         value: 0.5,
       },
       shape: {
-        type: 'circle',
+        type: 'triangle',
       },
       size: {
         value: { min: 1, max: 5 },

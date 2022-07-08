@@ -1,17 +1,23 @@
-<div class="container mt-5">
+<div class="container magic-container mt-5">
   <div class="row magic-wrapper">
-    <div class="col-6 eight-input">
+    <div class="col-6 col-md-12 eight-input">
       <!--<h1> Welcome {{ userName }}!</h1>-->
       <div class="form-group">
         <label> Please ask a question</label>
         <br/>
         <input class="form-control" [(ngModel)]="askQuestion" type="text"/>
-        <button class="btn btn-primary mt-1" (click)="onRandom()" ngModel>
-          Ask
-        </button>
+        <div class="ask-btn-wrapper">
+          <button
+            class="btn btn-primary mt-1 ask-btn"
+            (click)="onRandom()"
+            ngModel
+          >
+            Ask
+          </button>
+        </div>
       </div>
     </div>
-    <div class="col-6 eight-ball">
+    <div class="col-6 col-md-12 eight-ball">
       <div class="col-6 d-flex justify-content-center">
         <p class="answer">{{ eightBall }}</p>
       </div>
